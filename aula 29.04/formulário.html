@@ -8,7 +8,8 @@
 </head>
 
 <body>
-    <form action="index.html"> <h1>Formulário</h1>
+    <form action="mensagem.html"> 
+        <h1>Formulário</h1>
         <br> Primeiro nome:<br>
         <input type="text" name="Firstname" />
         <br> Sobrenome:<br>
@@ -19,6 +20,26 @@
         <input type="password" name="password" />
         <br>
         <input type="submit" value="Enviar"/>
+
+        tipo de pessoa:
+        <input type="radio" name="tipo pessoa" value="fisica"/> CPF <br/>
+           <input type="radio" name="tipo pessoa" value="juridica"/> CNPJ <br/>
+              <input type="checkbox" name="bike"/> Eu tenho uma bicicleta <br/>
+              <input type="checkbox" name="car"/> Eu tenho um carro <br/>
+              <select name="carros">
+                <option value="volvo">Volvo</option>
+                <option value="saab">Saab</option>
+                <option value="fiat">Fiat</option>
+                <option value="audi">Audi</option>
+              </select>
+              <br/>
+              <textarea rows="10" cols="20">Site básico, precisa melhorar com Javascript</textarea>
+              <fieldset>
+                <legend>O que você deseja fazer?</legend>
+              <input type="button" value="Oi mundo!"/>
+              <input type="reset" value="Cancelar"/>
+              <input type="submit" value="Enviar"/>
+              </fieldset>
     </form>
 
 
